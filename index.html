@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="style.css" type="text/css" rel="stylesheet" />
+	<!-- <script src="app.js" defer></script> -->
+	<script src="script.js" defer></script>
+	<title>Persons List Web Page</title>
+</head>
+
+<body>
+	<div id="myform">
+		<h3>New Person</h3> 
+		<!-- form to collect info about a person -->
+		<form  id="personForm" action="javascript:void(0);" method="post">
+			<label>Name :</label>
+			<input type="text" id="name" name="name" placeholder="Enter Name" required />
+			<br />
+			<label>Age :</label>
+			<input type="Number" id="age" name="age" step="1" required />
+			<br />
+			<label>Height:</label>
+			<input type="Number" id="height" name="height" step=".01" required />
+			<br />
+			<button type="submit">Save</button>
+		</form>
+	</div>
+
+	<h3>Persons List</h3>
+	<div id="toolbar" >
+		<button id="sortByHeightBtn">Sort by Height</button>
+		<button id="sortByNameBtn">Sort by Name</button>
+		<button id="clearBtn">Remove All</button>
+	</div>
+	
+	<ul id="personList">
+		<!-- area to show collected items-->
+	</ul>
+
+</body>
+
+</html>

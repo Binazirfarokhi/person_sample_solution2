@@ -1,0 +1,11 @@
+// point break down : 
+// Define a Person class or costructor function with the 3 properties :  3 pts
+// making age and height controlled by setter/getter : 3 pts ( if control is done outside class, 2  point deduction, if done inside class but without setter/getter 1 pt deduction)
+// create object of Person class using the form data : 2 pts
+// store Person objects inside an array : 2
+// show the array content in the list area below the form : 4 pts
+// handle the clearBtn and clears the array and UI list : 2pts ( clearing array 1pt, clearing UI 1pt)
+// handle the sortByHeightBtn , sort array and reflect in UI : 2 pts (sorting 1pt , updating UI 1pt)
+// handle the sortByNameBtn and sort array and reflect in UI : 2 (using localeCompare, otherwise 0.5 point deduction )
+
+// ( Bonus ) make the sort button to toggle between ascending and descending : 1
